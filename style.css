@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #c3c3c3;
+}
+.crud {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 217, 0);
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  gap: 20px;
+}
+form {
+  width: 70%;
+}
+form label {
+  width: 100%;
+  margin: 10px;
+}
+ul {
+  width: 100%;
+  list-style: none;
+  overflow-y: auto;
+}
+.delete {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: red;
+  width: 30px;
+  color: #fff;
+  height: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 100%;
+}
+li {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+}
+h5 {
+  font-size: 20px;
+  text-align: center;
+
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.message {
+  font-size: 14px;
+  color: red;
+}
+.hidden {
+  display: none;
+}
