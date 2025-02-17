@@ -6,6 +6,7 @@ let data = []
 
 
 
+
 function addPerson() {
   result.innerHTML = ``
   data.forEach((item, i) => {
