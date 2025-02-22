@@ -15,7 +15,26 @@
 </head>
 <body>
   <div class="crud">
-    <form>
+    <div>
+
+      <h1 class="user_add">User List</h1>
+      <button class="add_user">Add User</button>
+      <button class="sort_user">Sort User</button>
+    </div>
+    <table>
+    
+      <tbody>
+  
+      </tbody>
+    </table>
+    <ul>
+
+    </ul>
+  </div>
+
+
+  <div class="overflow d-none" >
+    <form class="create_form">  
       <label>
         <span>First name:</span>
         <input id="Fname" type="text" class="form-control">
@@ -25,24 +44,35 @@
         <input id="Lname" type="text" class="form-control">
       </label>
       <label>
-        <span>Age:</span>
-        <input id="age" type="number" class="form-control">
+        <span>Score:</span>
+        <input id="score" type="number" class="form-control">
       </label>
-      <label>
-        <span>Email address:</span>
-        <input id="email" type="email" class="form-control">
-      </label>
-      <label>
-        <span>Phone number:</span>
-        <input id="phone" type="number" class="form-control">
-      </label>
-      <span class="message d-none ">PLease fill every input</span>
+      <span class="message d-none ">PLease fill the form</span>
       <button type="submit" class="btn btn-success mt-4">Submit</button>
     </form>
-    <ul>
-
-    </ul>
   </div>
+
+  <!-- edit button -->
+  <div class="overflow_edit d-none" >
+    <form class="edit_form">
+      <h3>Edit Form</h3>
+      <label>
+        <span>First name:</span>
+        <input id="Fname_edit" type="text" class="form-control ">
+      </label>
+      <label>
+        <span>Last name:</span>
+        <input id="Lname_edit" type="text" class="form-control">
+      </label>
+      <label>
+        <span>Score:</span>
+        <input id="score_edit" type="number" class="form-control">
+      </label>
+      <span class="message_edit d-none ">PLease fill the form</span>
+      <button type="submit" class="btn btn-success mt-4">Submit</button>
+    </form>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
